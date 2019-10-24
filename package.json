@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/emanuelgsouza/body-mass-index-js/issues"
   },
-  "homepage": "https://github.com/emanuelgsouza/body-mass-index-js#readme"
+  "homepage": "https://github.com/emanuelgsouza/body-mass-index-js#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
