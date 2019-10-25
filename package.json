@@ -4,7 +4,8 @@
   "description": "An lib to calculate Body Mass Index (BMI)",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
