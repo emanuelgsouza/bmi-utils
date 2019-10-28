@@ -1,4 +1,4 @@
-import { ideialWeight } from '../lib'
+import { ideialWeight } from '../src'
 
 describe('testing ideialWeight function', () => {
   it('ideialWeight(0, "") should be { min: 0, max: 0 }', () => {

@@ -1,8 +1,8 @@
 import { isNumber, isEmpty } from 'lodash-es'
 
-import loadIndex from './load-index'
-import messages from './messages'
-import isValidGenre from './is-valid-genre'
+import loadIndex from '../utils/load-index'
+import messages from '../utils/messages'
+import isValidGenre from '../utils/is-valid-genre'
 
 /**
  * @method loadCategory

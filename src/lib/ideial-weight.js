@@ -1,4 +1,4 @@
-import * as GENRES from './genres'
+import * as GENRES from '../utils/genres'
 import { isNumber, isEmpty, includes } from 'lodash'
 
 /**

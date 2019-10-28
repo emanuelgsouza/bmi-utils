@@ -1,4 +1,4 @@
-import { calculate } from '../lib'
+import { calculate } from '../src'
 
 describe('testing calculate function', () => {
   it('calculate(0, 0) should be 0', () => {

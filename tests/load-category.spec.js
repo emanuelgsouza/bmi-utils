@@ -1,4 +1,4 @@
-import { loadCategory } from '../lib'
+import { loadCategory } from '../src'
 
 describe('testing loadCategory function', () => {
   it("loadCategory() should be a empty string ''", () => {
