@@ -5,24 +5,44 @@ A Javascript lib to calculate [body mass index](https://en.wikipedia.org/wiki/Bo
 ## Install
 
 ```sh
-# yarn add body-mass-index
+yarn add body-mass-index
 ```
 
-## Library Functions
+## Usage
+
+```js
+import { calculate } from 'body-mass-index'
+
+// ... your code here
+```
+
+## Library functions
 
 This lib exports the following functions:
 
-### calculate()
+### calculate(weight, heigth)
 
-... add documentation and examples
+This function receives `weight` (Number) and `heigth` (Number) and return a BMI calculated. Examples:
 
-### ideialWeight()
+```js
+calculate(65, 1.7) // returns '22.49'
+```
 
-... add documentation and examples
+### ideialWeight(height, genre)
 
-### loadCategory()
+This function receives `height` (Number) and `genre` (String) and return a object with `min` and `max` **ideal** weight.
 
-... add documentation and examples
+```js
+ideialWeight(1.70, 'M') // returns { min: '59.82', max: '76.27' }
+```
+
+### loadCategory(genre, imc, translation)
+
+This function receives `genre` (String), `imc` (Number), and `translation` (String - optional) properties and return a string with categorization of BMI.
+
+```js
+loadCategory('M', 26.39) // returns Normal weight
+```
 
 ## Author
 
