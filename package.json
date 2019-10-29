@@ -30,8 +30,5 @@
     "jest": "^24.9.0",
     "rollup": "^1.26.0"
   },
-  "dependencies": {
-    "lodash-es": "^4.17.15",
-    "rollup-plugin-node-resolve": "^5.2.0"
-  }
+  "dependencies": {}
 }
