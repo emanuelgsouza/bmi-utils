@@ -12,7 +12,6 @@ module.exports = {
     '/node_modules/'
   ],
   moduleNameMapper: {
-    '^lodash-es$': 'lodash',
     '^@/(.*)$': '<rootDir>/lib/$1'
   },
   testMatch: [
