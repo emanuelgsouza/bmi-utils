@@ -1,5 +1,5 @@
 import * as GENRES from '../utils/genres'
-import { isNumber, isEmpty, includes } from 'lodash'
+import { isNumber, isEmpty, includes } from 'lodash-es'
 
 /**
  * @type{Object<Array>}
