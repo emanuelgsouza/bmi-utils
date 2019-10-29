@@ -2,27 +2,32 @@
   "name": "body-mass-index",
   "version": "1.0.0",
   "description": "An library with some functions relates to Body Mass Index (BMI), like calculate and get the ideial weight",
+  "author": "Emanuel Souza <emanuelgdesouza@gmail.com>",
+  "license": "MIT",
   "main": "./src/index.js",
+  "homepage": "https://github.com/emanuelgsouza/body-mass-index#readme",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "lint": "eslint src/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/emanuelgsouza/body-mass-index.git"
   },
-  "keywords": ["body-mass-index", "bmi"],
-  "author": "Emanuel Souza <emanuelgdesouza@gmail.com>",
-  "license": "MIT",
+  "keywords": [
+    "body-mass-index",
+    "bmi"
+  ],
   "bugs": {
     "url": "https://github.com/emanuelgsouza/body-mass-index/issues"
   },
-  "homepage": "https://github.com/emanuelgsouza/body-mass-index#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "babel-jest": "^24.9.0",
+    "eslint": "^6.6.0",
     "jest": "^24.9.0"
   },
   "dependencies": {
