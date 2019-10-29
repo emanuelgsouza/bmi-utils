@@ -1,17 +1,17 @@
-# body-mass-index
+# bmi-utils
 
 A Javascript lib to calculate [body mass index](https://en.wikipedia.org/wiki/Body_mass_index).
 
-## Install
+## Install [![npm version](https://badge.fury.io/js/bmi-utils.svg)](https://badge.fury.io/js/bmi-utils)
 
 ```sh
-yarn add body-mass-index
+yarn add bmi-utils
 ```
 
 ## Usage
 
 ```js
-import { calculate } from 'body-mass-index'
+import { calculate } from 'bmi-utils'
 
 // ... your code here
 ```
