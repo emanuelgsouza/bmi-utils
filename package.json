@@ -1,8 +1,8 @@
 {
-  "name": "body-mass-index-js",
+  "name": "body-mass-index",
   "version": "1.0.0",
-  "description": "An lib to calculate Body Mass Index (BMI)",
-  "main": "index.js",
+  "description": "An library with some functions relates to Body Mass Index (BMI), like calculate and get the ideial weight",
+  "main": "./src/index.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emanuelgsouza/body-mass-index-js.git"
+    "url": "git+https://github.com/emanuelgsouza/body-mass-index.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["body-mass-index", "bmi"],
+  "author": "Emanuel Souza <emanuelgdesouza@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emanuelgsouza/body-mass-index-js/issues"
+    "url": "https://github.com/emanuelgsouza/body-mass-index/issues"
   },
-  "homepage": "https://github.com/emanuelgsouza/body-mass-index-js#readme",
+  "homepage": "https://github.com/emanuelgsouza/body-mass-index#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
