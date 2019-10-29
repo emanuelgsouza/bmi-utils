@@ -1,5 +1,4 @@
-import { isNumber, isEmpty } from 'lodash-es'
-
+import { isNumber, isEmpty } from '../utils/helpers'
 import loadIndex from '../utils/load-index'
 import messages from '../utils/messages'
 import isValidGenre from '../utils/is-valid-genre'
@@ -7,7 +6,7 @@ import isValidGenre from '../utils/is-valid-genre'
 /**
  * @method loadCategory
  * @param  {String} genre
- * @param  {Number} imc 
+ * @param  {Number} imc
  * @param  {String} translation can be 'pt-BR' or 'en-US'
  * @return {String}
  */

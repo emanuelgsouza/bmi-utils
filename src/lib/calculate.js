@@ -1,4 +1,4 @@
-import { lte } from 'lodash-es'
+import { lte } from '../utils/helpers'
 
 /**
  * @method imcCalc

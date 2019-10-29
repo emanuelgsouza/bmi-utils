@@ -1,5 +1,6 @@
 import * as GENRES from '../utils/genres'
-import { isNumber, isEmpty, includes } from 'lodash-es'
+import isValidGenre from '../utils/is-valid-genre'
+import { isNumber, isEmpty } from '../utils/helpers'
 
 /**
  * @type{Object<Array>}
@@ -36,7 +37,7 @@ const ideialWeight = (height, genre) => {
     return result
   }
 
-  if (!includes(Object.values(GENRES), genre)) {
+  if (!isValidGenre(genre)) {
     return result
   }
 

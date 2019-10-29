@@ -1,5 +1,3 @@
-import { includes } from 'lodash-es'
-
 import * as GENRES from './genres'
 
 /**
@@ -7,6 +5,6 @@ import * as GENRES from './genres'
  * @param  {String} genre
  * @return {Boolean}
  */
-const isValidGenre = genre => includes(Object.values(GENRES), genre)
+const isValidGenre = genre => Object.values(GENRES).includes(genre)
 
 export default isValidGenre
