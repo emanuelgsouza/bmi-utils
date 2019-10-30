@@ -1,3 +1,6 @@
+/**
+ * @type{Object}
+ */
 const messages = {
   'pt-BR': [
     null,

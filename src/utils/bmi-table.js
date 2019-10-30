@@ -1,6 +1,9 @@
 import * as GENRES from './genres'
 import { gte, lte, inRange } from './helpers'
 
+/**
+ * @type{Object}
+ */
 export default {
   [ GENRES.MALE ]: [
     imc => lte(Number(imc), 0),
