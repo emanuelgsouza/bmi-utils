@@ -17,6 +17,14 @@ const messages = {
     'A little overweight',
     'Overweight',
     'Obese'
+  ],
+  'es': [
+    null,
+    'Bajo peso',
+    'Peso normal',
+    'Un poco de sobrepeso',
+    'Sobre peso',
+    'Obeso'
   ]
 }
 
